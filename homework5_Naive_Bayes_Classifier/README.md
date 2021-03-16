@@ -6,7 +6,7 @@
 
 **How it works**:
 * the dataset is shuffled randomly
-* the dataset is partitioned into 10 roughly equal in number ofexamples chunks (from *chunk number 1* to *chunk number 10*)
+* the dataset is partitioned into 10 roughly equal in number of examples chunks (from *chunk number 1* to *chunk number 10*)
 * **Training and measuring accuracy**:
     1. the model is created and trained on the data *from chunk 2 to chunk 10 inclusively*
     2. the model is tested with data it has never seen before, i.e. it is tested with *chunk 1*
