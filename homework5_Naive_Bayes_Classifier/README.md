@@ -12,7 +12,7 @@
     2. the model is tested with data it has never seen before, i.e. it is tested with **chunk 1**
     3. the accuracy of the model is calculated based on how many correct predictions it made and that accuracy is stored
 
-    4. the model is created again and trained on the data from **chunk 1** and the data **from chunk 3 to chunk 10 incusively**
+    4. the model is created again and trained on the data from **chunk 1** and the data **from chunk 3 to chunk 10 inclusively**
     5. the model is tested with data it has never seen before, i.e. it is tested with **chunk 2**
     6. the accuracy of the model is calculated based on how many correct predictions it made and that accuracy is stored
 
