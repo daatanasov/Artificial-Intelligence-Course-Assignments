@@ -333,13 +333,22 @@ public:
 };
 
 int main() {
+
 	// tsp(number of cities, number of individuals in the popuation, percentage of mutation, number of iteration of the genetic algorithm)
+
 	int number_of_cities;
 	int number_of_individuals_in_population;
 	int mutation_percentage;
 	int num_iter_of_genetic_alg;
 
-	cin >> number_of_cities >> number_of_individuals_in_population >> mutation_percentage >> num_iter_of_genetic_alg;
+	cout << "Enter number of cities\n";
+	cin >> number_of_cities;
+	cout << "Enter number of individuals in population\n";
+	cin >> number_of_individuals_in_population;
+	cout << "Enter mutation percentage\n";
+	cin >> mutation_percentage;
+	cout << "Enter number of iterations of the algorithm\n";
+	cin >> num_iter_of_genetic_alg;
 
 	TSP_genetic tsp(number_of_cities, number_of_individuals_in_population, mutation_percentage, num_iter_of_genetic_alg);
 	tsp.solve2();
