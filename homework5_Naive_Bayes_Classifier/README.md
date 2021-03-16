@@ -20,7 +20,7 @@
 
     * After that the accuracy of the model is computed as mean of the sum of the stored accuracies
 
-**Data Preprocessing**
+**Data Preprocessing**:
 * some of the examples have "?"
 * the function **solution_with_original_values** works with the original data, i.e. works with "?" in some places. ***The accuracy I obtain on my machine is: 89.8837%***
 * the function **solution_with_only_yes_no** works with preprocessed data. i.e. every "?" is replaced with the dominating answer from the corresponding class (democrat or republican), i.e. if an example of class republican has "?" for some feature then this "?" is replaced with the majority answer from all republicans that have answer different from "?" for this feature. ***The accuracy I obtain on my machine is: 91.723%***
