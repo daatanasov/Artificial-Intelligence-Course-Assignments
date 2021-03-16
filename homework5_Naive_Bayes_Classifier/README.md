@@ -17,7 +17,6 @@
     6. the accuracy of the model is calculated based on how many correct predictions it made and that accuracy is stored
 
     * Analogously this procedure continues (the model is trained on 9 of the chunks and tested on the last chunk) until the model is tested on all 10 chunks
-
     * After that the accuracy of the model is computed as mean of the sum of the stored accuracies
 
 **Data Preprocessing**:
