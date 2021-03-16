@@ -6,14 +6,14 @@
 
 **How it works**:
 * the dataset is shuffled randomly
-* the dataset is partitioned into 10 roughly equal in number of examples chunks (from *chunk number 1* to *chunk number 10*)
+* the dataset is partitioned into 10 roughly equal in number of examples chunks (from **chunk number 1** to **chunk number 10**)
 * **Training and measuring accuracy**:
-    1. the model is created and trained on the data *from chunk 2 to chunk 10 inclusively*
-    2. the model is tested with data it has never seen before, i.e. it is tested with *chunk 1*
+    1. the model is created and trained on the data **from chunk 2 to chunk 10 inclusively**
+    2. the model is tested with data it has never seen before, i.e. it is tested with **chunk 1**
     3. the accuracy of the model is calculated based on how many correct predictions it made and that accuracy is stored
 
-    4. the model is created again and trained on the data from *chunk 1* and the data *from chunk 3 to chunk 10 incusively*
-    5. the model is tested with data it has never seen before, i.e. it is tested with *chunk 2*
+    4. the model is created again and trained on the data from **chunk 1** and the data **from chunk 3 to chunk 10 incusively**
+    5. the model is tested with data it has never seen before, i.e. it is tested with **chunk 2**
     6. the accuracy of the model is calculated based on how many correct predictions it made and that accuracy is stored
 
     * Analogously this procedure continues (the model is trained on 9 of the chunks and tested on the last chunk) until the model is tested on all 10 chunks
