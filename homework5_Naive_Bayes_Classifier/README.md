@@ -23,6 +23,6 @@
 **Data Preprocessing**
 * some of the examples have "?"
 * the function **solution_with_original_values** works with the original data, i.e. works with "?" in some places. ***The accuracy I obtain on my machine is: 89.8837%***
-* the function **solution_with_only_yes_no** works with preprocessed data. i.e. every "?" is replaced with the dominating answer from the corresponding class (democrat or republican), i.e. if an example of class republican has "?" for some feature then this "?" is replaced with the majority answer from all republicans that have answer different from "?" for this feature. ***The accuracy I obtain on my machine is: 91.723%**
+* the function **solution_with_only_yes_no** works with preprocessed data. i.e. every "?" is replaced with the dominating answer from the corresponding class (democrat or republican), i.e. if an example of class republican has "?" for some feature then this "?" is replaced with the majority answer from all republicans that have answer different from "?" for this feature. ***The accuracy I obtain on my machine is: 91.723%***
 
 **Remark**: in single execution of the program call either of the functions **solution_with_original_values** and **solution_with_only_yes_no** in main, but not both of them simultaneously
