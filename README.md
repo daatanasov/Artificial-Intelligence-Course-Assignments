@@ -1,6 +1,6 @@
 ## Artifical Intelligence course at Sofia University (Faculty of Mathematics and Informatics) - winter semester 2020/2021
 
-### For the course we had 8 assignments (mini-pojects):
+### For the course we had 8 assignments (mini-projects):
 1. **Sliding puzzle** using the *IDA\** algorithm and the *Manhattan distance heuristic*
 2. **N-Queens** using the *MinConflicts* (*Random Restart Hill climbing*) algorithm
 3. **Travelling Salesman Problem** using a *genetic* algorithm
