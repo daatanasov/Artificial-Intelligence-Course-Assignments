@@ -10,10 +10,10 @@
 
 **Results**
 * **OR** function
-    * ![OR result]("./OR_result.png")
+    * ![OR result](./OR_result.png)
 
 * **AND** function
-    * ![AND result]("./AND_result.png")
+    * ![AND result](./AND_result.png)
 
 * **XOR** function
-    * ![XOR result]("./XOR_result.png")
+    * ![XOR result](./XOR_result.png)
