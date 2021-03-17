@@ -17,3 +17,6 @@
 
 * **XOR** function
     * ![XOR result](./XOR_result.png)
+
+**Comments**
+* the neural networks seem to learn the functions pretty well
