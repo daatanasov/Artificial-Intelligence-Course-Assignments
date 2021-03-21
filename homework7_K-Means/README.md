@@ -1,7 +1,7 @@
 ### K-Means and K-Means++
 
 **About the datasets**:
-* we have 2 datasets - **normal.txt** and **unbalance.txt**. We wil try to cluster the data in each dataset with K-Means and K-Means++ algorithms
+* we have 2 datasets - **normal.txt** and **unbalance.txt**. We will try to cluster the data in each dataset with K-Means and K-Means++ algorithms
 
 **Input to the C++ program**:
 * user enters "U" and "K" -> K-Means algorithm is executed on **unbalance.txt** and the output is stored in **unbalance_output_K-Means.txt**
@@ -11,7 +11,7 @@
 
 *After the output of the C++ program is generated, the clusters can be visualizd with the Python script*
 
-**Input to the Python pogram**:
+**Input to the Python script**:
 * user executes **visualize_data** function with "U" and "K" -> visualization of **unbalance_output_K-Means.txt** is stored as **unbalance_output_K-Means.png**
 
 * user executes **visualize_data** function with "U" and "K++" -> visualization of **unbalance_output_K-Means++.txt** is stored as **unbalance_output_K-Means++.png**
