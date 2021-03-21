@@ -8,5 +8,4 @@
 - **Choosing sign**:
     * the user enters "X" -> the user plays with "X" throughout the game (the computer plays with "O")
     * the user enters "O" -> the user plays with "O" throughout the game (the computer plays with "X")
-- The board is 3x3 matrix. **The rows and the columns range from index 0 to index 2**. Entering a position **2 1** means putting the sign the player plays with in **row 2 and column 1**
-    
+- The board is 3x3 matrix. **The rows and the columns range from index 0 to index 2**. Entering a position **2 1** means putting the sign the user plays with in **row 2 and column 1**
